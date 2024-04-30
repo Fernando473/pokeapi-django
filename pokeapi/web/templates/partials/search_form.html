@@ -1,0 +1,17 @@
+<!-- search_form.html -->
+
+{% load static %}
+<div class="container mt-5">
+    <form id="searchForm" class="mb-4">
+        <div class="form-group">
+            <label for="searchInput">Search by name:</label>
+            <input type="text" class="form-control" id="searchInput" placeholder="Insert Pokemon name">
+        </div>
+    </form>
+
+    <h1> Total Pages: {{ total_pages }}</h1>
+    <h1> Remaining Pages: {{ remaining_pages }}</h1>
+
+
+</div>
+
